@@ -1,0 +1,10 @@
+query Character__GetCharacters {
+    characters {
+        results {
+            id
+            name
+            status
+            species
+        }
+    }
+}
